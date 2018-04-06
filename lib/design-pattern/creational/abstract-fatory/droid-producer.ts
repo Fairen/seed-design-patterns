@@ -10,6 +10,6 @@ export function droidProducer(kind : string) : DroidFactory<Droid>{
         case "PILOT":
             return new PilotDroidFactory();
         default:
-            throw "Droid type : [${kind}] not supported";
+            throw new Error(`Droid type : [${kind}] not supported`);
     }
 }
