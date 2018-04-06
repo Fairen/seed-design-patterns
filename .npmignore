@@ -1,0 +1,10 @@
+coverage
+lib
+test
+node_modules
+.git
+.gitignore
+.travis.yml
+package.json
+package-lock.json
+tsconfig.json
