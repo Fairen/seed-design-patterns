@@ -1,7 +1,7 @@
 'use strict';
 let expect = require('chai').expect;
 
-let DesignPattern = require('../dist/design-pattern/design-pattern.module');
+let DesignPattern = require('../../dist/design-pattern/design-pattern.module');
 
 describe('[Abstract Factory] Producer - BattleDroid', () => {
     it('Should be a Battle Droid', () => {
@@ -13,7 +13,7 @@ describe('[Abstract Factory] Producer - BattleDroid', () => {
 });
 
 describe('[Abstract Factory] Producer - PilotDroid', () => {
-    it('Should be a Battle Droid', () => {
+    it('Should be a Pilot Droid', () => {
         let droidFactory = new DesignPattern.droidProducer("PILOT");
         let droid = droidFactory.create();
         let rx24 = new DesignPattern.Rx24();
