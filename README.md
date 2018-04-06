@@ -14,6 +14,9 @@ bower install @fairen/design-patterns --save
 
 #### Abstract Factory
 
+#### Builder Factory
+
+#### Factory Method
 
 ## Test 
 ```sh
