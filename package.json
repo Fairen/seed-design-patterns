@@ -1,13 +1,12 @@
 {
   "name": "@fairen/design-patterns",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Seed for Design Patten implementation",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "ci:test": "mocha --reporter spec",
-    "ci:cover": "npm run build && istanbul cover node_modules/mocha/bin/_mocha test/*.js - - -R spec"
+    "ci:test": "npm run build && istanbul cover node_modules/mocha/bin/_mocha test/**/*.test.js - - -R spec"
   },
   "repository": {
     "type": "git",
